@@ -36,8 +36,8 @@ public class MainActivity extends Activity
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+//		super.onCreate(savedInstanceState);
+//		setContentView(R.layout.activity_main);
 
 //		LoadingRotateImage x = new LoadingRotateImage(this,R.style.CustomDialogTheme,R.drawable.img_prg6,"Loading your data");
 //		x.setCancelable(true);
