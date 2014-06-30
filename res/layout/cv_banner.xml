@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/clear"
+    android:orientation="vertical" >
+    
+    <!-- <ImageView
+        android:id="@+id/bannerImageSwitcher"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imgdummy5" /> -->
+
+     <ImageSwitcher
+            android:id="@+id/bannerImageSwitcher"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+</ImageSwitcher>
+     
+    <LinearLayout
+        android:id="@+id/layoutTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/clear"
+        android:orientation="vertical" >
+
+        
+	    <TextView
+	        android:id="@+id/tvBannerTitle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="@dimen/bannerTitlePaddingTop"
+	        android:paddingLeft="@dimen/bannerTitlePaddingLeft"
+	        android:paddingRight="@dimen/bannerTitlePaddingRight"
+	        android:lines="1"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	    <TextView
+	        android:id="@+id/tvSubBannerTitle"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="@dimen/bannerSubTitlePaddingLeft"
+	        android:paddingRight="@dimen/bannerSubTitlePaddingRight"
+	        android:paddingBottom="@dimen/bannerSubTitlePaddingBottom"
+	        android:lines="1"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutIndicator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bannerImageSwitcher"
+        android:background="@color/black_opacity_75"
+        android:gravity="right"
+        android:orientation="horizontal" >
+        
+     	<!-- <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bn_indi2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bn_indi1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bn_indi1" /> -->
+
+        <!-- <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/numer_rect_bg"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/numer_rect_bg"
+            android:text="2"
+            android:textColor="@color/gray_light" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/numer_rect_bg"
+            android:text="3"
+            android:textColor="@color/white"/> -->
+    </LinearLayout>
+	<View android:layout_height="1dp" android:layout_width="fill_parent" android:background="@color/black_opacity_75" />
+</RelativeLayout>

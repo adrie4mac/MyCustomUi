@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.mobileminted.customui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+   <!--  <com.mobileminted.customui.imageview.FlipImageView
+       android:id="@+id/flipimageview"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:scaleType="centerCrop"
+       android:src="@drawable/imgdummy6"
+       custom:Drawable2="@drawable/imgdummy1"
+       custom:flipDuration="1000"
+       custom:flipInterpolator="@android:anim/accelerate_interpolator"
+       custom:flipRotations="y"
+       custom:isAnimated="true"
+       custom:isFlipped="true" /> -->
+       
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="bannerTitlePaddingTop">5dp</dimen>
+    <dimen name="bannerTitlePaddingLeft">5dp</dimen>    
+    <dimen name="bannerTitlePaddingRight">5dp</dimen>
+    <dimen name="bannerSubTitlePaddingLeft">5dp</dimen>    
+    <dimen name="bannerSubTitlePaddingRight">5dp</dimen>
+    <dimen name="bannerSubTitlePaddingBottom">5dp</dimen>   
+    
+    <dimen name="bannerNumberIndicatorMargin">3dp</dimen>   
+</resources>
